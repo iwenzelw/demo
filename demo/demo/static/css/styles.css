@@ -1,0 +1,146 @@
+.btn-secondary {
+  color: #fff !important;
+  background-color: #03C4EB;
+  border-color: #03C4EB;
+}
+
+.crop {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 200px;
+    height: 200px;
+    margin: -0px 0 0 -0px;
+}
+
+.badge-secondary {
+  background-color: #03C4EB !important;
+}
+
+
+
+.text-secondary {
+color: #03C4EB !important;}
+
+p {
+    padding: 0;
+    margin: 0 0 -0px 0;
+
+}
+
+.btn-primary {
+
+  background-color: #03C4EB;
+  border-color: #03C4EB;
+}
+
+.text-white {
+color: #000000 !important;
+}
+
+
+.logo {
+  width: 80px; }
+
+.navbar {
+  opacity: 0.9;
+  text-transform: uppercase; }
+
+.social a {
+  margin-right: 0.4rem; }
+
+#showcase {
+background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('../img/building.jpg');
+  position: relative;
+  min-height: 650px;
+  color: #fff;
+  padding-top: 6rem; }
+  #showcase .home-search {
+    min-height: 400px;
+    position: relative;
+    border-radius: 5px; }
+  #showcase .overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.8);
+}
+
+#services {
+  background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(161, 159, 151, 0.8)), url('../img/building.jpg');
+  min-height: 300px;
+  position: relative;
+  overflow: hidden; }
+
+  #services::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(247, 247, 247, 0.17); }
+
+#showcase-inner {
+  background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('../img/building.jpg'); 
+  position: relative;
+  overflow: hidden;
+  min-height: 200px; }
+  #showcase-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(19, 74, 93, 0.6); }
+  #showcase-inner.showcase-search {
+    min-height: 270px; }
+
+#work {
+   background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(78, 129, 161, 0.8)), url('../img/banner-2.jpg');
+  min-height: 250px;
+  position: relative;
+  overflow: hidden; }
+#work::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(11, 41, 81, 0.67); }
+
+.listing-preview a {
+  position: relative; }
+
+@media (max-width: 991px) {
+  #showcase {
+    padding-top: 4rem; }
+    #showcase h1 {
+      font-size: 40px; }
+  .hide-md-down {
+    display: none; } }
+
+@media (max-width: 768px) {
+  #showcase {
+    padding-top: 3rem; }
+    #showcase h1 {
+      font-size: 40px; }
+    #showcase p {
+      display: none; }
+  #top-bar {
+    text-align: center; }
+    #top-bar .social {
+      text-align: center !important; } }
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 30px; }
+  #showcase-inner h1 {
+    font-size: 40px; } }

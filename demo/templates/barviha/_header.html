@@ -1,0 +1,52 @@
+{% load static %}
+ <!--==========================
+  Header Section
+  ============================-->
+  <header id="header">
+        <div class="container">
+
+            <div id="logo" class="pull-left">
+                <a href="#hero"><img src="{% static 'barviha/img/city.png' %}" alt="" title="" /></img></a>
+                <!-- Uncomment below if you prefer to use a text image -->
+                <!--<h1><a href="#hero">Header 1</a></h1>-->
+            </div>
+
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="{% url 'barviha-home' %}">Главная</a></li>
+                    <!--
+                    <li><a href="#about">О Нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#testimonials">Отзовы</a></li>
+                    <li><a href="#team">Наша команда</a></li>
+                    -->
+                    <li><a href="{% url 'index' %}">Квартиры</a></li>
+
+                    <li><a href="{% url 'barviha-list_1' %}">Не смотреть</a></li>
+                    <li><a href="{% url 'barviha-list_2' %}">Аренда</a></li>
+                    <li><a href="#' %}">Дома</a></li>
+                    <li class="menu-has-children"><a href="{% url 'about' %}">О Нас</a>
+                        <ul>
+                            <li><a href="#">Портфолио</a></li>
+                            <li class="menu-has-children"><a href="#">Вакансии</a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Отзовы</a></li>
+                            <li><a href="#">Наша команда</a></li>
+                            <li><a href="#">Drop Down 5</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Связаться с нами</a></li>
+                </ul>
+            </nav>
+            <!-- #nav-menu-container -->
+        </div>
+    </header>
+    <!-- #header -->
